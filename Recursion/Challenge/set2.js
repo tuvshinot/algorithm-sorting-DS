@@ -7,7 +7,7 @@ function reverse(str){
 
   function reverseColt(str){
     if(str.length <= 1) return str;
-    return reverse(str.slice(1)) + str[0];
+    return reverseColt(str.slice(1)) + str[0];
   }
   
 //console.log("Reversed : " + reverse('awesome')) // 'emosewa'

@@ -36,4 +36,4 @@ function fib(n){
     return fib(n-1) + fib(n-2);
 }
 
-fib(4) // 3 --- 1 1 2 4
+fib(4) // 3 --- 1 1 2 3 5
